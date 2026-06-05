@@ -24,7 +24,10 @@ export default function RootLayout({
 }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="en">
-      <body className="min-h-screen bg-[#020617] text-slate-100 antialiased">
+      <body
+        className="min-h-screen antialiased"
+        style={{ background: 'var(--color-background)', color: 'var(--color-text-primary)' }}
+      >
         <Providers>{children}</Providers>
       </body>
     </html>
