@@ -1,7 +1,8 @@
 @import "tailwindcss";
 
-body {
-      background: var(--color-background);
-        color: var(--color-text-primary);
-          font-family: var(--font-family-primary, Arial, Helvetica, sans-serif);
+@theme inline {
+      --color-background: var(--color-background);
+        --color-foreground: var(--color-text-primary);
+          --font-sans: var(--font-family-primary);
+            --font-mono: var(--font-family-mono);
 }
