@@ -104,6 +104,10 @@ function findLatestInteractReportPath(deploymentId: string): string | null {
         return path.join(base, reports[0]);
       }
     }
+
+  return null;
+}
+
 export default function handler(req: NextApiRequest, res: NextApiResponse) {
   if (req.method !== 'GET') {
     return res.status(200).json(stableHealthResponse());
