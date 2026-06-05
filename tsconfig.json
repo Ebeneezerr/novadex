@@ -20,13 +20,7 @@
       }
     ],
     "paths": {
-      "@/*": ["./src/*"],
-      "@hydra/dna-engine": ["../../packages/dna-engine/src/index.ts"],
-      "@hydra/dna-engine/*": ["../../packages/dna-engine/src/*"],
-      "@hydra/risk-engine": ["../../packages/risk-engine/src/index.ts"],
-      "@hydra/risk-engine/*": ["../../packages/risk-engine/src/*"],
-      "@hydra/listing-gate": ["../../packages/listing-gate/src/index.ts"],
-      "@hydra/listing-gate/*": ["../../packages/listing-gate/src/*"]
+      "@/*": ["./src/*"]
     }
   },
   "include": [
